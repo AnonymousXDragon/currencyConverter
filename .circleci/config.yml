@@ -11,9 +11,6 @@ jobs:
     - run:
         name: Run the App
         command: npm run build
-    - run:
-        name: Stop the App
-        command: killall node
 
   test:
     docker:
