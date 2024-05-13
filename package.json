@@ -5,6 +5,7 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000",
     "start": "node index.js",
+    "build": "node index.js &",
     "dev": "node --watch index.js"
   },
   "keywords": [],
